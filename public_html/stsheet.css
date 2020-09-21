@@ -1,0 +1,94 @@
+/* 
+    Document   : stsheet
+    Created on : Sep 21, 2020, 7:23:46 PM
+    Author     : mm
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    background-color: hsl(0, 0%, 98%);
+    Font-size: 15px;
+    font-family: Poppins;
+  font-size: 15px;
+  
+    
+}
+.container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+   
+}
+.container .header{
+    text-align: center;
+    font-size: 12px;
+}
+.container .header #hp{
+    font-size: 25px;
+    line-height: 0.5em;
+   font-weight: 100 ;
+}
+.container .boxes{
+    width: 30%;
+    background-color: white;
+    padding-left: 3%;
+    padding-top:3%;
+    font-size: 12px;
+    border-radius: 5px;
+}
+ .boxes img{
+     padding-left: 70%;}
+ .container #box1{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+0px -5px  hsl(180, 62%, 55%);
+     margin-left: -51px;
+     margin-top: 172px;
+}
+ .container #box2{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+                 0px -5px  hsl(0, 78%, 62%);
+     margin-left: 33%;
+     margin-top: -331px;
+}
+ .container #box3{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+0px -5px  hsl(34, 97%, 64%);
+     margin-left: 33%;
+     margin-top: 31px;
+}
+ .container #box4{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+0px -5px  hsl(212, 86%, 64%);
+     margin-left: 73%;
+     margin-top: -290px;
+}
+@media (max-width:700px){
+    .container #box1{
+     margin-top: 70px;
+     margin-left: 0px;
+     width: 100%;
+}
+ .container #box2{
+    
+     margin-left: 0%;
+     margin-top: 20px;
+     width: 100%;
+}
+ .container #box3{
+    
+     margin-left: 0%;
+     margin-top: 20px;
+     width: 100%;
+}
+ .container #box4{
+     
+     margin-left: 0%;
+     margin-top: 20px;
+     width: 100%;
+}
+.container .header #hp{
+    line-height: 1em;
+   
+}
+}
