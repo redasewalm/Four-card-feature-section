@@ -36,6 +36,7 @@ body {
     padding-top:3%;
     font-size: 12px;
     border-radius: 5px;
+    color: hsl(229, 6%, 66%);
 }
  .boxes img{
      padding-left: 70%;
